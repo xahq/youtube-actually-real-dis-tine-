@@ -13,6 +13,7 @@
    border-radius: 50px;
    display: inline-block;
    vertical-align: top;
+
    
 }
 
@@ -24,7 +25,7 @@
     font-weight: 600;
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 300px;
+    width: 380px;
     margin-left: 0px;
     vertical-align: top;
 
@@ -45,6 +46,8 @@
 
 .video-info{
     display: inline-block;
+    
+    
 
 }
 
@@ -72,17 +75,25 @@
 
 .stats2{
     margin-top: 5px;
+    
 }
 
 .fullblock{
     margin-right: 0px;
-    padding-left: 10px;
-    margin-bottom: 30px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+    background-color: rgba(211, 211, 211, 0.205);
+    padding-top: 20px;
+   
     
 }
 
 .thumb{
-    width: 600px;
+    width: 550px;
 }
 
+.fullgrid{
+   padding-top: 0px;
+   padding-left: 60px;
+}
 
