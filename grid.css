@@ -2,6 +2,7 @@
     
     height: 450px;
     margin-bottom: 0px;
+
 }
 
 .pfps{
@@ -72,4 +73,16 @@
 .stats2{
     margin-top: 5px;
 }
+
+.fullblock{
+    margin-right: 0px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.thumb{
+    width: 600px;
+}
+
 
