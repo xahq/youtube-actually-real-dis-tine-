@@ -8,7 +8,10 @@
 
     <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
 </head>
+
+
 
 
 
@@ -22,7 +25,7 @@
     <div class="header">
         <div class="left-section">
             <img class="hamburger-menu" src="leftsideicons/hamburger-menu.svg" alt="">
-            <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+            <a href="https://www.youtube.com/"><input type="image" src="icons/youtube-logo.svg" class="youtube-logo"></a>
         </div>
         <div class="middle-section">
             <input class="searchbar" type="search" placeholder="Search">
@@ -36,10 +39,42 @@
         <div class="right-section">
             <img class="upload-icon" src="icons/upload.svg" alt="">
             <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
-            <img class="notifications-icon" src="icons/notifications.svg" alt="">
+            <div class="notifications-icon-div">
+                <img class="notifications-icon" src="icons/notifications.svg" alt="">
+                <div class="notification-count">3</div>
+            </div>
             <img class="profile-picture-icon" src="icons/channels4_profile.jpg" alt="">
         </div>
     </div>
+
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="leftsideicons/home.svg" alt="">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="leftsideicons/explore.svg" alt="">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="leftsideicons/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="leftsideicons/originals.svg" alt="">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="leftsideicons/youtube-music.svg" alt="">
+            <div>Youtube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="leftsideicons/library.svg" alt="">
+            <div>Library</div>
+        </div>
+    </div>
+
+    
 
 
 
@@ -52,7 +87,8 @@
      column-gap: 0px;
      row-gap: 0px;
      margin-right: 0px;
-     margin-bottom: 0px;">
+     margin-bottom: 1000px;
+     padding-top: 75px;">
 
 
 
@@ -63,6 +99,7 @@
         <div class="fullblock">
             <div class="thumbnail">
                 <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY"><input type="image" src="thumbnails/thumbnail-1.webp" class="thumb"></a>
+                <div class="video-time">14:20</div>
             </div>
             <div class="pfps">
                 <a href="https://www.youtube.com/mkbhd"><input type="image" src="pfps/channel-1.jpeg" class="pfps2"></a>
